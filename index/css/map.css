@@ -1,0 +1,7 @@
+text:hover, path:hover {
+    fill: red;
+}
+
+path {
+    fill: #DDCBA4;
+}

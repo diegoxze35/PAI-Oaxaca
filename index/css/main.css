@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: GMX;
+    src: url('./../../font/gmx-font/GMX-Regular.ttf');
+}
+
+@font-face {
+    font-family: GMX-bold;
+    src: url('./../../font/gmx-font/GMX-Black.ttf');
+}
+
+.title {
+    font-family: 'GMX-bold';
+    color: #651C32;
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#map_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article_item {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #13322B;    
+    top: 0;
+    left: 0;
+    position: sticky;
+}
+
+body {
+    margin: 0;
+}
+
+.nav_anchor {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_anchor:hover {
+    color: #DDCBA4;
+}
+
+#logoheader {
+    width: 12vw;
+    height: 5vh;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.nav_item {
+    padding: 1.2rem;
+}
+
+nav {
+    padding: 0.8rem 10rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;   
+}
