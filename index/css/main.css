@@ -30,7 +30,7 @@
 
 header {
     width: 100%;
-    background-color: #13322B;    
+    background-color: #10312B;    
     top: 0;
     left: 0;
     position: sticky;
@@ -81,8 +81,7 @@ nav {
 
 footer {
     font-family: 'Montserrat';
-    text-decoration: none;
-    background-color: #13322B;
+    background-color: #10312B;
     color: white;
     padding: 20px 0;
 }
@@ -116,12 +115,14 @@ footer {
   }
   
   .enlaces li a:hover, .descripcion li a:hover, .denuncia a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Elimina el subrayado al pasar el mouse */
+    cursor: pointer; /* Opcional: muestra la mano al pasar el mouse */
   }
   
   .denuncia .social-media a img {
-    width: 24px;
-    margin-right: 10px;
+    width: 26px; /* Ajusta el ancho del icono */
+    height: 28px; /* Ajusta la altura del icono */
+    margin-right: 10px; /* Espacio entre los iconos */
   }
   
   .descripcion p {
@@ -148,3 +149,5 @@ footer {
     width: 18vw;
     height: 9vh;
   }
+
+  /*Termina css del footer*/
