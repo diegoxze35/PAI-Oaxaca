@@ -56,6 +56,7 @@ body {
     height: 5vh;
 }
 
+
 #container {
     width: 100%;
     display: flex;
@@ -75,3 +76,75 @@ nav {
     justify-content: space-between;
     align-items: center;   
 }
+
+/*CSS para el footer*/
+
+footer {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    background-color: #13322B;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: flex-start;
+  }
+  
+  .enlaces ul, .descripcion ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .enlaces h3, .descripcion h3, .denuncia h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .enlaces li, .descripcion li {
+    margin-bottom: 8px;
+  }
+  
+  .enlaces li a, .descripcion li a, .denuncia a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .enlaces li a:hover, .descripcion li a:hover, .denuncia a:hover {
+    text-decoration: underline;
+  }
+  
+  .denuncia .social-media a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .descripcion p {
+    margin-bottom: 10px;
+  }
+  
+  .descripcion p a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .descripcion p a:hover {
+    text-decoration: underline;
+  }
+
+  .gob-mx {
+    margin-right: 60px; /* Espacio entre la imagen y los enlaces */
+  }
+  
+  .gob-mx img {
+    width: 120px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-left: -100px; /* Asegúrate de que no haya margen a la izquierda */
+    display: block;
+    width: 18vw;
+    height: 9vh;
+  }
