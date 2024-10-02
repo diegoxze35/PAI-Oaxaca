@@ -1,7 +1,63 @@
-text:hover, path:hover {
-    fill: red;
+.open_modal_path:hover {
+    fill: #651C32;
+    transition: fill 350ms ease-in;
 }
 
-path {
+.open_modal_path {
     fill: #DDCBA4;
+    transition: fill 350ms ease-out;
+    cursor: pointer;
+}
+
+.dialog[open] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto 3vw;
+}
+
+.btn_town {
+    background-color: #651C32;
+    transition: color 400ms ease-out;
+}
+
+.btn_town:hover {
+    color: #DDCBA4;
+    transition: color 400ms ease-in;
+}
+
+.btn_close_modal {
+    width: 100%;
+    border: #000;
+    color: #000;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    color: #FFF;
+    margin: 1rem;
+    width: 14rem;
+    height: 4rem;
+}
+
+#article_response {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    overflow: auto;
+    margin-bottom: 2vh;
+}
+
+.poor_summary {
+    width: 180px;
+    height: auto;
+    font-family: 'Montserrat';
+    border-radius: 25px;
+    padding: 0.5rem;
+    border: #DDCBA4 2px solid;
+    color: #651C32;
 }
